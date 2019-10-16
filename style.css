@@ -1,0 +1,250 @@
+.html {
+    width: 1260px; 
+    height: 940px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+.body{
+    background-color: #EDF2C5;
+    width: 1260px; 
+    height: 940px;
+    margin: 0px;
+}
+
+    .top{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .header{
+        width: 271px; 
+        height: 62px;
+        margin-top: 36px;
+        margin-bottom: 5px;
+        margin-left: 160px;  
+    }
+    
+        .header h1{
+            font-family: Arial; 
+            font-size: 44px; 
+            font-weight: 900;
+            color: #778a50;
+            text-align: left;
+            padding: 0px;
+            margin: 0px;
+        }
+
+    .fb {
+        width: 25px; 
+        height: 25px;
+        object-fit: contain;
+        margin-top: 55px;
+        margin-left: 469px;
+  }
+
+    .ig {
+        width: 25px; 
+        height: 25px;
+        object-fit: contain;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 55px;
+        border-right: 1px solid #778a50;
+}
+
+    .login{
+        width: 46px; 
+        height: 15px;
+        border: solid 1px #778a50;
+        border-radius: 3px;
+        font-family: Arial; 
+        font-size: 14px; 
+        font-weight: bold;
+        text-align: center;
+        color: #778a50;
+        padding: 5px 6px;
+        margin-top: 53px; 
+        margin-left: 10px;
+    }
+
+    .join{
+        width: 35px; 
+        height: 15px;
+        border: solid 1px #778a50;
+        border-radius: 3px;
+        font-family: Arial; 
+        font-size: 14px; 
+        font-weight: bold;
+        text-align: center;
+        color: #778a50;
+        padding: 5px 6px; 
+        margin-top: 53px; 
+        margin-left: 10px;
+}
+
+.waterlevel{
+    width: 940px;
+    margin-right: 160px; 
+    margin-bottom: 20px; 
+    margin-left: 160px;
+}
+
+    .atoms{
+        height: 48px;
+        color:#EDF2C5;
+        background-color: #778A50;
+        margin-top: 0px; 
+        margin-bottom: 0px;
+        padding-left: 30px; 
+        padding-right: 317px;
+        display: flex;
+        border-radius: 3px;
+    }
+
+        .atoms li{
+            width: 98px; 
+            height: 23px;
+            font-family: Arial; 
+            font-size: 16px; 
+            font-weight: 900;
+            padding-top: 11px; 
+            padding-right: 60px; 
+            padding-bottom: 11px;
+            display: inline-block;
+            white-space: nowrap;
+            }
+
+.pumpkin{
+    width:940px; 
+    height: 448px;
+    margin-right: 160px; 
+    margin-bottom: 30px; 
+    margin-left: 160px;
+}
+
+.bottom{
+    width: 940px;
+    margin-right: 160px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cbox{
+    margin-bottom: 35px;
+}
+
+        .vege{
+            width:415px;
+            height: 23px;
+            background-color: #778A50;
+            color: #EDF2C5;
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: 900;
+            border-radius: 3px;
+            padding-top: 10px;
+            padding-bottom: 12px;
+            padding-left: 30px;
+            margin-top:0px;
+            margin-bottom: 15px;
+        }
+
+            .images{
+                display: flex;
+            }
+        
+                .pepper{
+                    margin-top: 15px; 
+                }
+
+                .c{
+                    margin-top: 12px; 
+                    margin-left: 12px;
+                }
+
+                .cbox{
+                    margin-bottom: 35px;
+                    justify-content: right;
+                }
+
+                .contact{
+                    width:415px;
+                    height: 23px;
+                    background-color: #778A50;
+                    color: #EDF2C5;
+                    font-family: Arial;
+                    font-size: 16px;
+                    font-weight: 900;
+                    border-radius: 3px;
+                    padding-top: 10px;
+                    padding-bottom: 12px;
+                    padding-left: 30px;
+                    margin-top:0px;
+                    margin-bottom: 15px;
+                }
+                }
+
+                .info{
+                    width: 444px;
+                    height: 140px;
+                    font-family: Arial;
+                    font-size: 12px;
+                    color: #7d7d7d;
+                    background-color: #f7fbda;
+                    margin-top: 15px;
+                    padding-right: 15px;
+                    padding-right: 15px;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .info .txt1{
+                    box-sizing: border-box;
+                    width:414px;
+                    line-height: 1.25;
+                    border-bottom: 1px solid #7D7D7D;
+                    padding-top:15px;
+                    padding-bottom: 15px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+
+                .info .txt2{
+                    display: block;
+                    line-height: 1.55;
+                    padding-top:15px;
+                    padding-bottom: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    white-space:nowrap;
+                }
+
+                .info .txt3{
+                    line-height: 1.55;
+                    padding-top:0px;
+                    padding-bottom: 15px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+
+        .footer{
+            width: 1260px;
+            height: 60px;
+            background-color: #778a50;
+            margin: 0px;
+            justify-content: center;
+            display: flex;
+            }
+
+            .footer .cop{
+                font-family: Arial;
+                font-size: 12px;
+                color: #edf2c5;
+                padding-top: 23px;
+                padding-bottom: 23px;
+                margin: 0px;
+            }
